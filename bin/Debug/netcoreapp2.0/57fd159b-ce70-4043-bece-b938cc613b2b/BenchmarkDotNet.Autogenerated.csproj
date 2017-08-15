@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <AssemblyTitle>57fd159b-ce70-4043-bece-b938cc613b2b</AssemblyTitle>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>57fd159b-ce70-4043-bece-b938cc613b2b</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <OutputPath>bin\Release</OutputPath>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="57fd159b-ce70-4043-bece-b938cc613b2b.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="C:\source\benchmarkef\benchmarkef.csproj" />
+  </ItemGroup>
+  
+</Project>

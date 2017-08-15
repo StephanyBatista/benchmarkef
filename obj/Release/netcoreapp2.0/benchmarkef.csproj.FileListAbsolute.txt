@@ -1,0 +1,10 @@
+C:\source\benchmarkef\bin\Release\netcoreapp2.0\benchmarkef.deps.json
+C:\source\benchmarkef\bin\Release\netcoreapp2.0\benchmarkef.runtimeconfig.json
+C:\source\benchmarkef\bin\Release\netcoreapp2.0\benchmarkef.runtimeconfig.dev.json
+C:\source\benchmarkef\bin\Release\netcoreapp2.0\benchmarkef.dll
+C:\source\benchmarkef\bin\Release\netcoreapp2.0\benchmarkef.pdb
+C:\source\benchmarkef\obj\Release\netcoreapp2.0\benchmarkef.csproj.CoreCompileInputs.cache
+C:\source\benchmarkef\obj\Release\netcoreapp2.0\benchmarkef.AssemblyInfoInputs.cache
+C:\source\benchmarkef\obj\Release\netcoreapp2.0\benchmarkef.AssemblyInfo.cs
+C:\source\benchmarkef\obj\Release\netcoreapp2.0\benchmarkef.dll
+C:\source\benchmarkef\obj\Release\netcoreapp2.0\benchmarkef.pdb

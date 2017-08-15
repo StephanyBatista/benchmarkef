@@ -1,0 +1,875 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   Benchmark.DapperInsert0: DefaultJob
+//   Benchmark.EfInsert0: DefaultJob
+//   Benchmark.DapperSelect0: DefaultJob
+//   Benchmark.EfSelect0: DefaultJob
+//   Benchmark.DapperSelectWithFilter0: DefaultJob
+//   Benchmark.EfSelectWithFilter0: DefaultJob
+
+// Validating benchmarks:
+Assembly benchmarkef which defines benchmarks is non-optimized
+// **************************
+// Benchmark: Benchmark.DapperInsert0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\4fe40816-5e1d-468b-b0e4-a4c12ce58f2c\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,71s
+// dotnet build took 4,21s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 79574944.25 ns, 4.9734 ms/op
+Pilot  2: 32 op, 168069261.28 ns, 5.2522 ms/op
+Pilot  3: 64 op, 380991364.07 ns, 5.9530 ms/op
+Pilot  4: 128 op, 733373903.38 ns, 5.7295 ms/op
+
+IdleWarmup  1: 128 op, 3622.33 ns, 28.2994 ns/op
+IdleWarmup  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  3: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  4: 128 op, 301.86 ns, 2.3583 ns/op
+IdleWarmup  5: 128 op, 301.86 ns, 2.3583 ns/op
+IdleWarmup  6: 128 op, 603.72 ns, 4.7166 ns/op
+
+IdleTarget  1: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  2: 128 op, 905.58 ns, 7.0749 ns/op
+IdleTarget  3: 128 op, 1509.30 ns, 11.7914 ns/op
+IdleTarget  4: 128 op, 905.58 ns, 7.0749 ns/op
+IdleTarget  5: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  6: 128 op, 1509.30 ns, 11.7914 ns/op
+IdleTarget  7: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  8: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  9: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 10: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 11: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 12: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 13: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 14: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 15: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 16: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 17: 128 op, 603.72 ns, 4.7166 ns/op
+
+MainWarmup  1: 128 op, 763843396.00 ns, 5.9675 ms/op
+MainWarmup  2: 128 op, 648835467.64 ns, 5.0690 ms/op
+MainWarmup  3: 128 op, 656591470.21 ns, 5.1296 ms/op
+MainWarmup  4: 128 op, 762165957.45 ns, 5.9544 ms/op
+MainWarmup  5: 128 op, 666967319.68 ns, 5.2107 ms/op
+MainWarmup  6: 128 op, 688704894.88 ns, 5.3805 ms/op
+MainWarmup  7: 128 op, 674495719.47 ns, 5.2695 ms/op
+
+MainTarget  1: 128 op, 669056194.04 ns, 5.2270 ms/op
+MainTarget  2: 128 op, 662685730.97 ns, 5.1772 ms/op
+MainTarget  3: 128 op, 669241536.36 ns, 5.2284 ms/op
+MainTarget  4: 128 op, 647054189.08 ns, 5.0551 ms/op
+MainTarget  5: 128 op, 632531984.38 ns, 4.9417 ms/op
+MainTarget  6: 128 op, 649344102.51 ns, 5.0730 ms/op
+MainTarget  7: 128 op, 636973257.28 ns, 4.9764 ms/op
+MainTarget  8: 128 op, 645432594.71 ns, 5.0424 ms/op
+MainTarget  9: 128 op, 674381012.49 ns, 5.2686 ms/op
+MainTarget 10: 128 op, 693876971.94 ns, 5.4209 ms/op
+MainTarget 11: 128 op, 692779709.18 ns, 5.4123 ms/op
+MainTarget 12: 128 op, 686024675.88 ns, 5.3596 ms/op
+MainTarget 13: 128 op, 657953464.59 ns, 5.1403 ms/op
+MainTarget 14: 128 op, 659400281.76 ns, 5.1516 ms/op
+MainTarget 15: 128 op, 688865484.64 ns, 5.3818 ms/op
+MainTarget 16: 128 op, 716405119.67 ns, 5.5969 ms/op
+MainTarget 17: 128 op, 689123877.19 ns, 5.3838 ms/op
+MainTarget 18: 128 op, 676433663.60 ns, 5.2846 ms/op
+MainTarget 19: 128 op, 692861815.23 ns, 5.4130 ms/op
+MainTarget 20: 128 op, 664575377.42 ns, 5.1920 ms/op
+MainTarget 21: 128 op, 690739132.50 ns, 5.3964 ms/op
+MainTarget 22: 128 op, 688270819.54 ns, 5.3771 ms/op
+MainTarget 23: 128 op, 744178696.56 ns, 5.8139 ms/op
+MainTarget 24: 128 op, 645651443.54 ns, 5.0442 ms/op
+MainTarget 25: 128 op, 633235922.96 ns, 4.9472 ms/op
+MainTarget 26: 128 op, 666002271.80 ns, 5.2031 ms/op
+MainTarget 27: 128 op, 643081403.61 ns, 5.0241 ms/op
+MainTarget 28: 128 op, 649001189.03 ns, 5.0703 ms/op
+MainTarget 29: 128 op, 666304132.26 ns, 5.2055 ms/op
+MainTarget 30: 128 op, 718296275.43 ns, 5.6117 ms/op
+MainTarget 31: 128 op, 665487599.72 ns, 5.1991 ms/op
+MainTarget 32: 128 op, 649559329.01 ns, 5.0747 ms/op
+MainTarget 33: 128 op, 650147655.04 ns, 5.0793 ms/op
+MainTarget 34: 128 op, 665230414.61 ns, 5.1971 ms/op
+MainTarget 35: 128 op, 637346960.52 ns, 4.9793 ms/op
+MainTarget 36: 128 op, 665389796.94 ns, 5.1984 ms/op
+MainTarget 37: 128 op, 649448546.22 ns, 5.0738 ms/op
+MainTarget 38: 128 op, 639682454.87 ns, 4.9975 ms/op
+MainTarget 39: 128 op, 640833146.93 ns, 5.0065 ms/op
+MainTarget 40: 128 op, 641805741.33 ns, 5.0141 ms/op
+MainTarget 41: 128 op, 1398402071.49 ns, 10.9250 ms/op
+MainTarget 42: 128 op, 1529295406.38 ns, 11.9476 ms/op
+MainTarget 43: 128 op, 1707660825.97 ns, 13.3411 ms/op
+MainTarget 44: 128 op, 982755013.98 ns, 7.6778 ms/op
+MainTarget 45: 128 op, 678852773.30 ns, 5.3035 ms/op
+MainTarget 46: 128 op, 768762514.00 ns, 6.0060 ms/op
+MainTarget 47: 128 op, 672051555.35 ns, 5.2504 ms/op
+MainTarget 48: 128 op, 653253799.14 ns, 5.1035 ms/op
+MainTarget 49: 128 op, 639333504.19 ns, 4.9948 ms/op
+
+Result  1: 128 op, 669055466.02 ns, 5.2270 ms/op
+Result  2: 128 op, 662685002.95 ns, 5.1772 ms/op
+Result  3: 128 op, 669240808.34 ns, 5.2284 ms/op
+Result  4: 128 op, 647053461.07 ns, 5.0551 ms/op
+Result  5: 128 op, 632531256.36 ns, 4.9417 ms/op
+Result  6: 128 op, 649343374.49 ns, 5.0730 ms/op
+Result  7: 128 op, 636972529.26 ns, 4.9763 ms/op
+Result  8: 128 op, 645431866.69 ns, 5.0424 ms/op
+Result  9: 128 op, 674380284.48 ns, 5.2686 ms/op
+Result 10: 128 op, 693876243.92 ns, 5.4209 ms/op
+Result 11: 128 op, 692778981.17 ns, 5.4123 ms/op
+Result 12: 128 op, 686023947.87 ns, 5.3596 ms/op
+Result 13: 128 op, 657952736.57 ns, 5.1403 ms/op
+Result 14: 128 op, 659399553.74 ns, 5.1516 ms/op
+Result 15: 128 op, 688864756.63 ns, 5.3818 ms/op
+Result 16: 128 op, 716404391.66 ns, 5.5969 ms/op
+Result 17: 128 op, 689123149.18 ns, 5.3838 ms/op
+Result 18: 128 op, 676432935.58 ns, 5.2846 ms/op
+Result 19: 128 op, 692861087.21 ns, 5.4130 ms/op
+Result 20: 128 op, 664574649.41 ns, 5.1920 ms/op
+Result 21: 128 op, 690738404.48 ns, 5.3964 ms/op
+Result 22: 128 op, 688270091.53 ns, 5.3771 ms/op
+Result 23: 128 op, 744177968.54 ns, 5.8139 ms/op
+Result 24: 128 op, 645650715.53 ns, 5.0441 ms/op
+Result 25: 128 op, 633235194.95 ns, 4.9471 ms/op
+Result 26: 128 op, 666001543.79 ns, 5.2031 ms/op
+Result 27: 128 op, 643080675.60 ns, 5.0241 ms/op
+Result 28: 128 op, 649000461.01 ns, 5.0703 ms/op
+Result 29: 128 op, 666303404.24 ns, 5.2055 ms/op
+Result 30: 128 op, 718295547.42 ns, 5.6117 ms/op
+Result 31: 128 op, 665486871.71 ns, 5.1991 ms/op
+Result 32: 128 op, 649558601.00 ns, 5.0747 ms/op
+Result 33: 128 op, 650146927.03 ns, 5.0793 ms/op
+Result 34: 128 op, 665229686.60 ns, 5.1971 ms/op
+Result 35: 128 op, 637346232.51 ns, 4.9793 ms/op
+Result 36: 128 op, 665389068.92 ns, 5.1984 ms/op
+Result 37: 128 op, 649447818.21 ns, 5.0738 ms/op
+Result 38: 128 op, 639681726.86 ns, 4.9975 ms/op
+Result 39: 128 op, 640832418.92 ns, 5.0065 ms/op
+Result 40: 128 op, 641805013.31 ns, 5.0141 ms/op
+Result 41: 128 op, 678852045.28 ns, 5.3035 ms/op
+Result 42: 128 op, 672050827.33 ns, 5.2504 ms/op
+Result 43: 128 op, 653253071.12 ns, 5.1035 ms/op
+Result 44: 128 op, 639332776.17 ns, 4.9948 ms/op
+GC:  0 0 0 0 6272
+
+
+Mean = 5.2021 ms, StdErr = 0.0292 ms (0.56%); N = 44, StdDev = 0.1936 ms
+Min = 4.9417 ms, Q1 = 5.0496 ms, Median = 5.1945 ms, Q3 = 5.3315 ms, Max = 5.8139 ms
+IQR = 0.2819 ms, LowerFence = 4.6267 ms, UpperFence = 5.7544 ms
+ConfidenceInterval = [5.0990 ms; 5.3052 ms] (CI 99.9%), Margin = 0.1031 ms (1.98% of Mean)
+Skewness = 0.94, Kurtosis = 3.69
+
+
+// **************************
+// Benchmark: Benchmark.EfInsert0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\48f462bd-3043-4df4-93d6-4eb65e3886bd\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,73s
+// dotnet build took 4,2s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 59118162.97 ns, 3.6949 ms/op
+Pilot  2: 32 op, 124013633.23 ns, 3.8754 ms/op
+Pilot  3: 64 op, 249410391.06 ns, 3.8970 ms/op
+Pilot  4: 128 op, 494335135.74 ns, 3.8620 ms/op
+Pilot  5: 256 op, 917852902.80 ns, 3.5854 ms/op
+
+IdleWarmup  1: 256 op, 3320.47 ns, 12.9706 ns/op
+IdleWarmup  2: 256 op, 905.58 ns, 3.5374 ns/op
+IdleWarmup  3: 256 op, 905.58 ns, 3.5374 ns/op
+IdleWarmup  4: 256 op, 905.58 ns, 3.5374 ns/op
+IdleWarmup  5: 256 op, 905.58 ns, 3.5374 ns/op
+IdleWarmup  6: 256 op, 603.72 ns, 2.3583 ns/op
+
+IdleTarget  1: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget  2: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget  3: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget  4: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget  5: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget  6: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget  7: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget  8: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget  9: 256 op, 1207.44 ns, 4.7166 ns/op
+IdleTarget 10: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 11: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 12: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 13: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 14: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget 15: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 16: 256 op, 603.72 ns, 2.3583 ns/op
+IdleTarget 17: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 18: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 19: 256 op, 905.58 ns, 3.5374 ns/op
+IdleTarget 20: 256 op, 905.58 ns, 3.5374 ns/op
+
+MainWarmup  1: 256 op, 953067339.94 ns, 3.7229 ms/op
+MainWarmup  2: 256 op, 926070751.86 ns, 3.6175 ms/op
+MainWarmup  3: 256 op, 908481946.78 ns, 3.5488 ms/op
+MainWarmup  4: 256 op, 931490052.64 ns, 3.6386 ms/op
+MainWarmup  5: 256 op, 948434989.37 ns, 3.7048 ms/op
+MainWarmup  6: 256 op, 937006552.48 ns, 3.6602 ms/op
+MainWarmup  7: 256 op, 947894055.43 ns, 3.7027 ms/op
+MainWarmup  8: 256 op, 910194401.15 ns, 3.5554 ms/op
+
+MainTarget  1: 256 op, 938400242.21 ns, 3.6656 ms/op
+MainTarget  2: 256 op, 929349560.14 ns, 3.6303 ms/op
+MainTarget  3: 256 op, 912669656.90 ns, 3.5651 ms/op
+MainTarget  4: 256 op, 925201091.89 ns, 3.6141 ms/op
+MainTarget  5: 256 op, 910490828.12 ns, 3.5566 ms/op
+MainTarget  6: 256 op, 915273505.19 ns, 3.5753 ms/op
+MainTarget  7: 256 op, 910896830.44 ns, 3.5582 ms/op
+MainTarget  8: 256 op, 922261574.76 ns, 3.6026 ms/op
+MainTarget  9: 256 op, 960456883.91 ns, 3.7518 ms/op
+MainTarget 10: 256 op, 917743025.59 ns, 3.5849 ms/op
+MainTarget 11: 256 op, 912158909.00 ns, 3.5631 ms/op
+MainTarget 12: 256 op, 1019818648.27 ns, 3.9837 ms/op
+MainTarget 13: 256 op, 896074576.44 ns, 3.5003 ms/op
+MainTarget 14: 256 op, 896766440.60 ns, 3.5030 ms/op
+MainTarget 15: 256 op, 915964463.78 ns, 3.5780 ms/op
+
+Result  1: 256 op, 938399427.19 ns, 3.6656 ms/op
+Result  2: 256 op, 929348745.12 ns, 3.6303 ms/op
+Result  3: 256 op, 912668841.87 ns, 3.5651 ms/op
+Result  4: 256 op, 925200276.87 ns, 3.6141 ms/op
+Result  5: 256 op, 910490013.10 ns, 3.5566 ms/op
+Result  6: 256 op, 915272690.17 ns, 3.5753 ms/op
+Result  7: 256 op, 910896015.41 ns, 3.5582 ms/op
+Result  8: 256 op, 922260759.74 ns, 3.6026 ms/op
+Result  9: 256 op, 917742210.57 ns, 3.5849 ms/op
+Result 10: 256 op, 912158093.98 ns, 3.5631 ms/op
+Result 11: 256 op, 896073761.41 ns, 3.5003 ms/op
+Result 12: 256 op, 896765625.58 ns, 3.5030 ms/op
+Result 13: 256 op, 915963648.76 ns, 3.5780 ms/op
+GC:  60 0 0 0 3840
+
+
+Mean = 3.5767 ms, StdErr = 0.0127 ms (0.36%); N = 13, StdDev = 0.0459 ms
+Min = 3.5003 ms, Q1 = 3.5574 ms, Median = 3.5753 ms, Q3 = 3.6083 ms, Max = 3.6656 ms
+IQR = 0.0509 ms, LowerFence = 3.4810 ms, UpperFence = 3.6847 ms
+ConfidenceInterval = [3.5218 ms; 3.6316 ms] (CI 99.9%), Margin = 0.0549 ms (1.54% of Mean)
+Skewness = 0.05, Kurtosis = 2.38
+
+
+// **************************
+// Benchmark: Benchmark.DapperSelect0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\40e8dee7-5b51-4b4a-8c9c-40aaa25abf41\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,68s
+// dotnet build took 4,22s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 83991464.59 ns, 5.2495 ms/op
+Pilot  2: 32 op, 168139292.90 ns, 5.2544 ms/op
+Pilot  3: 64 op, 351776705.37 ns, 5.4965 ms/op
+Pilot  4: 128 op, 659977137.09 ns, 5.1561 ms/op
+
+IdleWarmup  1: 128 op, 3018.60 ns, 23.5828 ns/op
+IdleWarmup  2: 128 op, 301.86 ns, 2.3583 ns/op
+IdleWarmup  3: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  4: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  5: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  6: 128 op, 301.86 ns, 2.3583 ns/op
+
+IdleTarget  1: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  3: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  4: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  5: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  6: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  7: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  8: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  9: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 10: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 11: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 12: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 13: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 14: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 15: 128 op, 603.72 ns, 4.7166 ns/op
+
+MainWarmup  1: 128 op, 745656605.36 ns, 5.8254 ms/op
+MainWarmup  2: 128 op, 714166824.39 ns, 5.5794 ms/op
+MainWarmup  3: 128 op, 645328150.99 ns, 5.0416 ms/op
+MainWarmup  4: 128 op, 660468867.77 ns, 5.1599 ms/op
+MainWarmup  5: 128 op, 662318064.93 ns, 5.1744 ms/op
+MainWarmup  6: 128 op, 697252375.57 ns, 5.4473 ms/op
+MainWarmup  7: 128 op, 680196052.33 ns, 5.3140 ms/op
+MainWarmup  8: 128 op, 672445483.25 ns, 5.2535 ms/op
+MainWarmup  9: 128 op, 675999890.12 ns, 5.2812 ms/op
+MainWarmup 10: 128 op, 672581924.17 ns, 5.2545 ms/op
+
+MainTarget  1: 128 op, 662986383.98 ns, 5.1796 ms/op
+MainTarget  2: 128 op, 662829416.54 ns, 5.1784 ms/op
+MainTarget  3: 128 op, 633100085.76 ns, 4.9461 ms/op
+MainTarget  4: 128 op, 651747817.32 ns, 5.0918 ms/op
+MainTarget  5: 128 op, 634957131.29 ns, 4.9606 ms/op
+MainTarget  6: 128 op, 623001344.18 ns, 4.8672 ms/op
+MainTarget  7: 128 op, 654707559.10 ns, 5.1149 ms/op
+MainTarget  8: 128 op, 657419775.30 ns, 5.1361 ms/op
+MainTarget  9: 128 op, 666909362.47 ns, 5.2102 ms/op
+MainTarget 10: 128 op, 658066058.54 ns, 5.1411 ms/op
+MainTarget 11: 128 op, 661692610.06 ns, 5.1695 ms/op
+MainTarget 12: 128 op, 678701239.35 ns, 5.3024 ms/op
+MainTarget 13: 128 op, 650016345.74 ns, 5.0783 ms/op
+MainTarget 14: 128 op, 652591215.44 ns, 5.0984 ms/op
+MainTarget 15: 128 op, 661391353.33 ns, 5.1671 ms/op
+MainTarget 16: 128 op, 635965647.07 ns, 4.9685 ms/op
+MainTarget 17: 128 op, 649562347.62 ns, 5.0747 ms/op
+MainTarget 18: 128 op, 637569431.68 ns, 4.9810 ms/op
+MainTarget 19: 128 op, 1093970065.71 ns, 8.5466 ms/op
+MainTarget 20: 128 op, 1568316605.74 ns, 12.2525 ms/op
+MainTarget 21: 128 op, 1710606984.02 ns, 13.3641 ms/op
+MainTarget 22: 128 op, 1282682658.03 ns, 10.0210 ms/op
+
+Result  1: 128 op, 662985820.51 ns, 5.1796 ms/op
+Result  2: 128 op, 662828853.07 ns, 5.1784 ms/op
+Result  3: 128 op, 633099522.29 ns, 4.9461 ms/op
+Result  4: 128 op, 651747253.85 ns, 5.0918 ms/op
+Result  5: 128 op, 634956567.81 ns, 4.9606 ms/op
+Result  6: 128 op, 654706995.63 ns, 5.1149 ms/op
+Result  7: 128 op, 657419211.83 ns, 5.1361 ms/op
+Result  8: 128 op, 666908799.00 ns, 5.2102 ms/op
+Result  9: 128 op, 658065495.07 ns, 5.1411 ms/op
+Result 10: 128 op, 661692046.59 ns, 5.1695 ms/op
+Result 11: 128 op, 678700675.88 ns, 5.3023 ms/op
+Result 12: 128 op, 650015782.27 ns, 5.0782 ms/op
+Result 13: 128 op, 652590651.97 ns, 5.0984 ms/op
+Result 14: 128 op, 661390789.86 ns, 5.1671 ms/op
+Result 15: 128 op, 635965083.60 ns, 4.9685 ms/op
+Result 16: 128 op, 649561784.14 ns, 5.0747 ms/op
+Result 17: 128 op, 637568868.21 ns, 4.9810 ms/op
+GC:  0 0 0 0 2816
+
+
+Mean = 5.1058 ms, StdErr = 0.0237 ms (0.46%); N = 17, StdDev = 0.0979 ms
+Min = 4.9461 ms, Q1 = 5.0279 ms, Median = 5.1149 ms, Q3 = 5.1739 ms, Max = 5.3023 ms
+IQR = 0.1461 ms, LowerFence = 4.8088 ms, UpperFence = 5.3930 ms
+ConfidenceInterval = [5.0105 ms; 5.2011 ms] (CI 99.9%), Margin = 0.0953 ms (1.87% of Mean)
+Skewness = -0.1, Kurtosis = 2.18
+
+
+// **************************
+// Benchmark: Benchmark.EfSelect0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\0ebd9697-d308-49eb-915a-62b97f705648\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,68s
+// dotnet build took 4,18s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 60000199.23 ns, 3.7500 ms/op
+Pilot  2: 32 op, 120809082.62 ns, 3.7753 ms/op
+Pilot  3: 64 op, 235053605.89 ns, 3.6727 ms/op
+Pilot  4: 128 op, 513487577.99 ns, 4.0116 ms/op
+
+IdleWarmup  1: 128 op, 3320.47 ns, 25.9411 ns/op
+IdleWarmup  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  3: 128 op, 301.86 ns, 2.3583 ns/op
+IdleWarmup  4: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  5: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  6: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  7: 128 op, 603.72 ns, 4.7166 ns/op
+
+IdleTarget  1: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  3: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  4: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  5: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  6: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  7: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  8: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  9: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 10: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 11: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 12: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 13: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 14: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 15: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 16: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 17: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 18: 128 op, 603.72 ns, 4.7166 ns/op
+
+MainWarmup  1: 128 op, 473361569.36 ns, 3.6981 ms/op
+MainWarmup  2: 128 op, 472999336.81 ns, 3.6953 ms/op
+MainWarmup  3: 128 op, 470205920.15 ns, 3.6735 ms/op
+MainWarmup  4: 128 op, 470074912.71 ns, 3.6725 ms/op
+MainWarmup  5: 128 op, 460076086.95 ns, 3.5943 ms/op
+MainWarmup  6: 128 op, 468082935.56 ns, 3.6569 ms/op
+MainWarmup  7: 128 op, 459751586.96 ns, 3.5918 ms/op
+MainWarmup  8: 128 op, 469009345.30 ns, 3.6641 ms/op
+MainWarmup  9: 128 op, 472454478.69 ns, 3.6911 ms/op
+MainWarmup 10: 128 op, 460843416.23 ns, 3.6003 ms/op
+
+MainTarget  1: 128 op, 481422149.13 ns, 3.7611 ms/op
+MainTarget  2: 128 op, 501339807.64 ns, 3.9167 ms/op
+MainTarget  3: 128 op, 565499643.96 ns, 4.4180 ms/op
+MainTarget  4: 128 op, 488411124.28 ns, 3.8157 ms/op
+MainTarget  5: 128 op, 475847088.36 ns, 3.7176 ms/op
+MainTarget  6: 128 op, 490339710.74 ns, 3.8308 ms/op
+MainTarget  7: 128 op, 519928374.55 ns, 4.0619 ms/op
+MainTarget  8: 128 op, 492726219.51 ns, 3.8494 ms/op
+MainTarget  9: 128 op, 576264289.70 ns, 4.5021 ms/op
+MainTarget 10: 128 op, 512706363.13 ns, 4.0055 ms/op
+MainTarget 11: 128 op, 562131183.12 ns, 4.3916 ms/op
+MainTarget 12: 128 op, 523116926.55 ns, 4.0869 ms/op
+MainTarget 13: 128 op, 491578546.05 ns, 3.8405 ms/op
+MainTarget 14: 128 op, 534600302.04 ns, 4.1766 ms/op
+MainTarget 15: 128 op, 485879118.77 ns, 3.7959 ms/op
+MainTarget 16: 128 op, 473138192.62 ns, 3.6964 ms/op
+MainTarget 17: 128 op, 486765682.93 ns, 3.8029 ms/op
+MainTarget 18: 128 op, 481504858.90 ns, 3.7618 ms/op
+MainTarget 19: 128 op, 481438147.74 ns, 3.7612 ms/op
+MainTarget 20: 128 op, 516034978.38 ns, 4.0315 ms/op
+MainTarget 21: 128 op, 480541320.32 ns, 3.7542 ms/op
+MainTarget 22: 128 op, 482463265.85 ns, 3.7692 ms/op
+MainTarget 23: 128 op, 492825531.60 ns, 3.8502 ms/op
+MainTarget 24: 128 op, 484307633.24 ns, 3.7837 ms/op
+MainTarget 25: 128 op, 494880597.59 ns, 3.8663 ms/op
+MainTarget 26: 128 op, 472452667.53 ns, 3.6910 ms/op
+MainTarget 27: 128 op, 477878609.23 ns, 3.7334 ms/op
+MainTarget 28: 128 op, 479535219.42 ns, 3.7464 ms/op
+MainTarget 29: 128 op, 472900024.72 ns, 3.6945 ms/op
+MainTarget 30: 128 op, 492995479.04 ns, 3.8515 ms/op
+MainTarget 31: 128 op, 471867661.96 ns, 3.6865 ms/op
+MainTarget 32: 128 op, 472716795.43 ns, 3.6931 ms/op
+MainTarget 33: 128 op, 480068304.98 ns, 3.7505 ms/op
+MainTarget 34: 128 op, 474565690.72 ns, 3.7075 ms/op
+
+Result  1: 128 op, 481421612.49 ns, 3.7611 ms/op
+Result  2: 128 op, 501339271.00 ns, 3.9167 ms/op
+Result  3: 128 op, 488410587.64 ns, 3.8157 ms/op
+Result  4: 128 op, 475846551.72 ns, 3.7176 ms/op
+Result  5: 128 op, 490339174.10 ns, 3.8308 ms/op
+Result  6: 128 op, 519927837.91 ns, 4.0619 ms/op
+Result  7: 128 op, 492725682.87 ns, 3.8494 ms/op
+Result  8: 128 op, 512705826.49 ns, 4.0055 ms/op
+Result  9: 128 op, 523116389.91 ns, 4.0868 ms/op
+Result 10: 128 op, 491578009.41 ns, 3.8405 ms/op
+Result 11: 128 op, 485878582.13 ns, 3.7959 ms/op
+Result 12: 128 op, 473137655.98 ns, 3.6964 ms/op
+Result 13: 128 op, 486765146.29 ns, 3.8029 ms/op
+Result 14: 128 op, 481504322.26 ns, 3.7618 ms/op
+Result 15: 128 op, 481437611.10 ns, 3.7612 ms/op
+Result 16: 128 op, 516034441.74 ns, 4.0315 ms/op
+Result 17: 128 op, 480540783.68 ns, 3.7542 ms/op
+Result 18: 128 op, 482462729.21 ns, 3.7692 ms/op
+Result 19: 128 op, 492824994.96 ns, 3.8502 ms/op
+Result 20: 128 op, 484307096.60 ns, 3.7836 ms/op
+Result 21: 128 op, 494880060.95 ns, 3.8663 ms/op
+Result 22: 128 op, 472452130.88 ns, 3.6910 ms/op
+Result 23: 128 op, 477878072.59 ns, 3.7334 ms/op
+Result 24: 128 op, 479534682.78 ns, 3.7464 ms/op
+Result 25: 128 op, 472899488.08 ns, 3.6945 ms/op
+Result 26: 128 op, 492994942.40 ns, 3.8515 ms/op
+Result 27: 128 op, 471867125.32 ns, 3.6865 ms/op
+Result 28: 128 op, 472716258.78 ns, 3.6931 ms/op
+Result 29: 128 op, 480067768.34 ns, 3.7505 ms/op
+Result 30: 128 op, 474565154.08 ns, 3.7075 ms/op
+GC:  68 0 0 0 4352
+
+
+Mean = 3.8105 ms, StdErr = 0.0204 ms (0.54%); N = 30, StdDev = 0.1119 ms
+Min = 3.6865 ms, Q1 = 3.7334 ms, Median = 3.7764 ms, Q3 = 3.8502 ms, Max = 4.0868 ms
+IQR = 0.1168 ms, LowerFence = 3.5583 ms, UpperFence = 4.0254 ms
+ConfidenceInterval = [3.7357 ms; 3.8852 ms] (CI 99.9%), Margin = 0.0747 ms (1.96% of Mean)
+Skewness = 1.07, Kurtosis = 3.21
+
+
+// **************************
+// Benchmark: Benchmark.DapperSelectWithFilter0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\8c5778ac-2838-44f6-bab8-8449e60267d6\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,72s
+// dotnet build took 4,18s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 84431577.14 ns, 5.2770 ms/op
+Pilot  2: 32 op, 173309558.80 ns, 5.4159 ms/op
+Pilot  3: 64 op, 343410642.81 ns, 5.3658 ms/op
+Pilot  4: 128 op, 689483091.14 ns, 5.3866 ms/op
+
+IdleWarmup  1: 128 op, 3320.47 ns, 25.9411 ns/op
+IdleWarmup  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  3: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  4: 128 op, 301.86 ns, 2.3583 ns/op
+IdleWarmup  5: 128 op, 603.72 ns, 4.7166 ns/op
+IdleWarmup  6: 128 op, 603.72 ns, 4.7166 ns/op
+
+IdleTarget  1: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  2: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  3: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  4: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget  5: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  6: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  7: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  8: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget  9: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 10: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 11: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 12: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 13: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 14: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 15: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 16: 128 op, 301.86 ns, 2.3583 ns/op
+IdleTarget 17: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 18: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 19: 128 op, 603.72 ns, 4.7166 ns/op
+IdleTarget 20: 128 op, 603.72 ns, 4.7166 ns/op
+
+MainWarmup  1: 128 op, 697726296.48 ns, 5.4510 ms/op
+MainWarmup  2: 128 op, 695063887.26 ns, 5.4302 ms/op
+MainWarmup  3: 128 op, 635718725.22 ns, 4.9666 ms/op
+MainWarmup  4: 128 op, 665579667.16 ns, 5.1998 ms/op
+MainWarmup  5: 128 op, 664889010.44 ns, 5.1944 ms/op
+MainWarmup  6: 128 op, 678806890.51 ns, 5.3032 ms/op
+MainWarmup  7: 128 op, 675929254.78 ns, 5.2807 ms/op
+
+MainTarget  1: 128 op, 680165866.28 ns, 5.3138 ms/op
+MainTarget  2: 128 op, 678970498.88 ns, 5.3045 ms/op
+MainTarget  3: 128 op, 682712059.23 ns, 5.3337 ms/op
+MainTarget  4: 128 op, 674822332.48 ns, 5.2720 ms/op
+MainTarget  5: 128 op, 689264242.30 ns, 5.3849 ms/op
+MainTarget  6: 128 op, 681223585.32 ns, 5.3221 ms/op
+MainTarget  7: 128 op, 663406271.88 ns, 5.1829 ms/op
+MainTarget  8: 128 op, 686540253.54 ns, 5.3636 ms/op
+MainTarget  9: 128 op, 685136904.28 ns, 5.3526 ms/op
+MainTarget 10: 128 op, 660048979.88 ns, 5.1566 ms/op
+MainTarget 11: 128 op, 678041372.39 ns, 5.2972 ms/op
+MainTarget 12: 128 op, 652731580.55 ns, 5.0995 ms/op
+MainTarget 13: 128 op, 673653830.65 ns, 5.2629 ms/op
+MainTarget 14: 128 op, 648106776.50 ns, 5.0633 ms/op
+MainTarget 15: 128 op, 649235734.60 ns, 5.0722 ms/op
+MainTarget 16: 128 op, 693044138.94 ns, 5.4144 ms/op
+MainTarget 17: 128 op, 661264873.80 ns, 5.1661 ms/op
+MainTarget 18: 128 op, 662483786.32 ns, 5.1757 ms/op
+
+Result  1: 128 op, 680165383.31 ns, 5.3138 ms/op
+Result  2: 128 op, 678970015.90 ns, 5.3045 ms/op
+Result  3: 128 op, 682711576.26 ns, 5.3337 ms/op
+Result  4: 128 op, 674821849.51 ns, 5.2720 ms/op
+Result  5: 128 op, 689263759.33 ns, 5.3849 ms/op
+Result  6: 128 op, 681223102.35 ns, 5.3221 ms/op
+Result  7: 128 op, 663405788.90 ns, 5.1829 ms/op
+Result  8: 128 op, 686539770.57 ns, 5.3636 ms/op
+Result  9: 128 op, 685136421.31 ns, 5.3526 ms/op
+Result 10: 128 op, 660048496.90 ns, 5.1566 ms/op
+Result 11: 128 op, 678040889.41 ns, 5.2972 ms/op
+Result 12: 128 op, 652731097.57 ns, 5.0995 ms/op
+Result 13: 128 op, 673653347.68 ns, 5.2629 ms/op
+Result 14: 128 op, 648106293.52 ns, 5.0633 ms/op
+Result 15: 128 op, 649235251.63 ns, 5.0722 ms/op
+Result 16: 128 op, 693043655.96 ns, 5.4144 ms/op
+Result 17: 128 op, 661264390.82 ns, 5.1661 ms/op
+Result 18: 128 op, 662483303.34 ns, 5.1757 ms/op
+GC:  0 0 0 0 2304
+
+
+Mean = 5.2521 ms, StdErr = 0.0259 ms (0.49%); N = 18, StdDev = 0.1100 ms
+Min = 5.0633 ms, Q1 = 5.1661 ms, Median = 5.2846 ms, Q3 = 5.3337 ms, Max = 5.4144 ms
+IQR = 0.1676 ms, LowerFence = 4.9148 ms, UpperFence = 5.5850 ms
+ConfidenceInterval = [5.1493 ms; 5.3549 ms] (CI 99.9%), Margin = 0.1028 ms (1.96% of Mean)
+Skewness = -0.33, Kurtosis = 1.68
+
+
+// **************************
+// Benchmark: Benchmark.EfSelectWithFilter0: DefaultJob
+// *** Generate *** 
+Unable to find .sln file. Will use current directory C:\source\benchmarkef to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// Result = Success
+// BinariesDirectoryPath = C:\source\benchmarkef\bin\Debug\netcoreapp2.0\3ec2e931-4d13-4d2b-965e-74f7f6e3a9ed\bin\Release\netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1,74s
+// dotnet build took 4,37s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 219370144.01 ns, 13.7106 ms/op
+Pilot  2: 32 op, 316179811.03 ns, 9.8806 ms/op
+Pilot  3: 64 op, 664393959.29 ns, 10.3812 ms/op
+
+IdleWarmup  1: 64 op, 3320.47 ns, 51.8823 ns/op
+IdleWarmup  2: 64 op, 603.72 ns, 9.4331 ns/op
+IdleWarmup  3: 64 op, 603.72 ns, 9.4331 ns/op
+IdleWarmup  4: 64 op, 301.86 ns, 4.7166 ns/op
+IdleWarmup  5: 64 op, 603.72 ns, 9.4331 ns/op
+IdleWarmup  6: 64 op, 301.86 ns, 4.7166 ns/op
+
+IdleTarget  1: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  2: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  3: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  4: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  5: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  6: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  7: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget  8: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget  9: 64 op, 905.58 ns, 14.1497 ns/op
+IdleTarget 10: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget 11: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget 12: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget 13: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget 14: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget 15: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget 16: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget 17: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget 18: 64 op, 301.86 ns, 4.7166 ns/op
+IdleTarget 19: 64 op, 603.72 ns, 9.4331 ns/op
+IdleTarget 20: 64 op, 603.72 ns, 9.4331 ns/op
+
+MainWarmup  1: 64 op, 681721051.36 ns, 10.6519 ms/op
+MainWarmup  2: 64 op, 640633617.17 ns, 10.0099 ms/op
+MainWarmup  3: 64 op, 615995766.71 ns, 9.6249 ms/op
+MainWarmup  4: 64 op, 712168810.03 ns, 11.1276 ms/op
+MainWarmup  5: 64 op, 547296552.84 ns, 8.5515 ms/op
+MainWarmup  6: 64 op, 393088723.73 ns, 6.1420 ms/op
+MainWarmup  7: 64 op, 246233007.90 ns, 3.8474 ms/op
+MainWarmup  8: 64 op, 250667639.86 ns, 3.9167 ms/op
+MainWarmup  9: 64 op, 253957013.26 ns, 3.9681 ms/op
+MainWarmup 10: 64 op, 252914085.38 ns, 3.9518 ms/op
+
+MainTarget  1: 64 op, 250297257.08 ns, 3.9109 ms/op
+MainTarget  2: 64 op, 251096281.71 ns, 3.9234 ms/op
+MainTarget  3: 64 op, 271384021.14 ns, 4.2404 ms/op
+MainTarget  4: 64 op, 260715065.16 ns, 4.0737 ms/op
+MainTarget  5: 64 op, 244960967.93 ns, 3.8275 ms/op
+MainTarget  6: 64 op, 252677728.64 ns, 3.9481 ms/op
+MainTarget  7: 64 op, 243360503.79 ns, 3.8025 ms/op
+MainTarget  8: 64 op, 245731919.54 ns, 3.8396 ms/op
+MainTarget  9: 64 op, 256101731.80 ns, 4.0016 ms/op
+MainTarget 10: 64 op, 263278766.02 ns, 4.1137 ms/op
+MainTarget 11: 64 op, 254518775.57 ns, 3.9769 ms/op
+MainTarget 12: 64 op, 242955407.06 ns, 3.7962 ms/op
+MainTarget 13: 64 op, 245986086.04 ns, 3.8435 ms/op
+MainTarget 14: 64 op, 249149583.63 ns, 3.8930 ms/op
+MainTarget 15: 64 op, 264632610.17 ns, 4.1349 ms/op
+MainTarget 16: 64 op, 249707723.61 ns, 3.9017 ms/op
+MainTarget 17: 64 op, 254759056.49 ns, 3.9806 ms/op
+MainTarget 18: 64 op, 255302103.45 ns, 3.9891 ms/op
+MainTarget 19: 64 op, 251047380.32 ns, 3.9226 ms/op
+MainTarget 20: 64 op, 239052955.08 ns, 3.7352 ms/op
+MainTarget 21: 64 op, 254349431.85 ns, 3.9742 ms/op
+MainTarget 22: 64 op, 245626872.10 ns, 3.8379 ms/op
+MainTarget 23: 64 op, 243837141.45 ns, 3.8100 ms/op
+MainTarget 24: 64 op, 250558668.24 ns, 3.9150 ms/op
+MainTarget 25: 64 op, 285527089.11 ns, 4.4614 ms/op
+MainTarget 26: 64 op, 249771114.31 ns, 3.9027 ms/op
+
+Result  1: 64 op, 250296819.39 ns, 3.9109 ms/op
+Result  2: 64 op, 251095844.02 ns, 3.9234 ms/op
+Result  3: 64 op, 260714627.46 ns, 4.0737 ms/op
+Result  4: 64 op, 244960530.24 ns, 3.8275 ms/op
+Result  5: 64 op, 252677290.95 ns, 3.9481 ms/op
+Result  6: 64 op, 243360066.10 ns, 3.8025 ms/op
+Result  7: 64 op, 245731481.84 ns, 3.8396 ms/op
+Result  8: 64 op, 256101294.11 ns, 4.0016 ms/op
+Result  9: 64 op, 263278328.32 ns, 4.1137 ms/op
+Result 10: 64 op, 254518337.87 ns, 3.9768 ms/op
+Result 11: 64 op, 242954969.36 ns, 3.7962 ms/op
+Result 12: 64 op, 245985648.35 ns, 3.8435 ms/op
+Result 13: 64 op, 249149145.93 ns, 3.8930 ms/op
+Result 14: 64 op, 264632172.47 ns, 4.1349 ms/op
+Result 15: 64 op, 249707285.92 ns, 3.9017 ms/op
+Result 16: 64 op, 254758618.80 ns, 3.9806 ms/op
+Result 17: 64 op, 255301665.76 ns, 3.9891 ms/op
+Result 18: 64 op, 251046942.62 ns, 3.9226 ms/op
+Result 19: 64 op, 239052517.38 ns, 3.7352 ms/op
+Result 20: 64 op, 254348994.16 ns, 3.9742 ms/op
+Result 21: 64 op, 245626434.40 ns, 3.8379 ms/op
+Result 22: 64 op, 243836703.76 ns, 3.8099 ms/op
+Result 23: 64 op, 250558230.54 ns, 3.9150 ms/op
+Result 24: 64 op, 249770676.61 ns, 3.9027 ms/op
+GC:  26 0 0 0 1664
+
+
+Mean = 3.9189 ms, StdErr = 0.0206 ms (0.53%); N = 24, StdDev = 0.1008 ms
+Min = 3.7352 ms, Q1 = 3.8387 ms, Median = 3.9129 ms, Q3 = 3.9787 ms, Max = 4.1349 ms
+IQR = 0.1400 ms, LowerFence = 3.6287 ms, UpperFence = 4.1887 ms
+ConfidenceInterval = [3.8414 ms; 3.9965 ms] (CI 99.9%), Margin = 0.0775 ms (1.98% of Mean)
+Skewness = 0.39, Kurtosis = 2.49
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmark-report.html
+
+// * Detailed results *
+Benchmark.DapperInsert0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 5.2021 ms, StdErr = 0.0292 ms (0.56%); N = 44, StdDev = 0.1936 ms
+Min = 4.9417 ms, Q1 = 5.0496 ms, Median = 5.1945 ms, Q3 = 5.3315 ms, Max = 5.8139 ms
+IQR = 0.2819 ms, LowerFence = 4.6267 ms, UpperFence = 5.7544 ms
+ConfidenceInterval = [5.0990 ms; 5.3052 ms] (CI 99.9%), Margin = 0.1031 ms (1.98% of Mean)
+Skewness = 0.94, Kurtosis = 3.69
+
+
+Benchmark.EfInsert0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 3.5767 ms, StdErr = 0.0127 ms (0.36%); N = 13, StdDev = 0.0459 ms
+Min = 3.5003 ms, Q1 = 3.5574 ms, Median = 3.5753 ms, Q3 = 3.6083 ms, Max = 3.6656 ms
+IQR = 0.0509 ms, LowerFence = 3.4810 ms, UpperFence = 3.6847 ms
+ConfidenceInterval = [3.5218 ms; 3.6316 ms] (CI 99.9%), Margin = 0.0549 ms (1.54% of Mean)
+Skewness = 0.05, Kurtosis = 2.38
+
+
+Benchmark.DapperSelect0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 5.1058 ms, StdErr = 0.0237 ms (0.46%); N = 17, StdDev = 0.0979 ms
+Min = 4.9461 ms, Q1 = 5.0279 ms, Median = 5.1149 ms, Q3 = 5.1739 ms, Max = 5.3023 ms
+IQR = 0.1461 ms, LowerFence = 4.8088 ms, UpperFence = 5.3930 ms
+ConfidenceInterval = [5.0105 ms; 5.2011 ms] (CI 99.9%), Margin = 0.0953 ms (1.87% of Mean)
+Skewness = -0.1, Kurtosis = 2.18
+
+
+Benchmark.EfSelect0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 3.8105 ms, StdErr = 0.0204 ms (0.54%); N = 30, StdDev = 0.1119 ms
+Min = 3.6865 ms, Q1 = 3.7334 ms, Median = 3.7764 ms, Q3 = 3.8502 ms, Max = 4.0868 ms
+IQR = 0.1168 ms, LowerFence = 3.5583 ms, UpperFence = 4.0254 ms
+ConfidenceInterval = [3.7357 ms; 3.8852 ms] (CI 99.9%), Margin = 0.0747 ms (1.96% of Mean)
+Skewness = 1.07, Kurtosis = 3.21
+
+
+Benchmark.DapperSelectWithFilter0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 5.2521 ms, StdErr = 0.0259 ms (0.49%); N = 18, StdDev = 0.1100 ms
+Min = 5.0633 ms, Q1 = 5.1661 ms, Median = 5.2846 ms, Q3 = 5.3337 ms, Max = 5.4144 ms
+IQR = 0.1676 ms, LowerFence = 4.9148 ms, UpperFence = 5.5850 ms
+ConfidenceInterval = [5.1493 ms; 5.3549 ms] (CI 99.9%), Margin = 0.1028 ms (1.96% of Mean)
+Skewness = -0.33, Kurtosis = 1.68
+
+
+Benchmark.EfSelectWithFilter0: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 3.9189 ms, StdErr = 0.0206 ms (0.53%); N = 24, StdDev = 0.1008 ms
+Min = 3.7352 ms, Q1 = 3.8387 ms, Median = 3.9129 ms, Q3 = 3.9787 ms, Max = 4.1349 ms
+IQR = 0.1400 ms, LowerFence = 3.6287 ms, UpperFence = 4.1887 ms
+ConfidenceInterval = [3.8414 ms; 3.9965 ms] (CI 99.9%), Margin = 0.0775 ms (1.98% of Mean)
+Skewness = 0.39, Kurtosis = 2.49
+
+
+Total time: 00:03:03 (183.58 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.9, OS=Windows 10 Threshold 1 (10.0.10240)
+Processor=Intel Core i7-3770 CPU 3.40GHz (Ivy Bridge), ProcessorCount=8
+Frequency=3312789 Hz, Resolution=301.8605 ns, Timer=TSC
+.NET Core SDK=2.0.0
+  [Host]     : .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT DEBUG
+  DefaultJob : .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+
+
+                  Method |     Mean |     Error |    StdDev |
+------------------------ |---------:|----------:|----------:|
+           DapperInsert0 | 5.202 ms | 0.1031 ms | 0.1936 ms |
+               EfInsert0 | 3.577 ms | 0.0549 ms | 0.0459 ms |
+           DapperSelect0 | 5.106 ms | 0.0953 ms | 0.0979 ms |
+               EfSelect0 | 3.810 ms | 0.0747 ms | 0.1119 ms |
+ DapperSelectWithFilter0 | 5.252 ms | 0.1028 ms | 0.1100 ms |
+     EfSelectWithFilter0 | 3.919 ms | 0.0775 ms | 0.1008 ms |
+
+// * Warnings *
+Environment
+  Benchmark.DapperInsert0: Default           -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  Benchmark.EfInsert0: Default               -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  Benchmark.DapperSelect0: Default           -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  Benchmark.EfSelect0: Default               -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  Benchmark.DapperSelectWithFilter0: Default -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  Benchmark.EfSelectWithFilter0: Default     -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+
+// * Hints *
+Outliers
+  Benchmark.DapperInsert0: Default       -> 5 outliers were removed
+  Benchmark.EfInsert0: Default           -> 2 outliers were removed
+  Benchmark.DapperSelect0: Default       -> 5 outliers were removed
+  Benchmark.EfSelect0: Default           -> 4 outliers were removed
+  Benchmark.EfSelectWithFilter0: Default -> 2 outliers were removed
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
+k.EfSelect4: Default               -> 3 outliers were removed
+  Benchmark.DapperSelect4: Default           -> 1 outlier  was  removed
+  Benchmark.EfSelectWithFilter4: Default     -> 3 outliers were removed
+  Benchmark.DapperSelectWithFilter4: Default -> 5 outliers were removed
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
